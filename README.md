@@ -41,7 +41,7 @@ Looker studio
 
 Você pode testar os filtros e explorar os dados reais clicando no link abaixo:
 
-🔗 **[Acessar o Dashboard Interativo no Looker Studio](https://datastudio.google.com/reporting/824e026a-41e4-4c36-a2ed-bb9a352ce268)**
+**[Acessar o Dashboard Interativo no Looker Studio](https://datastudio.google.com/reporting/824e026a-41e4-4c36-a2ed-bb9a352ce268)**
 
 ![Prévia do Dashboard](dashboard_preview.png)
 

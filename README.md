@@ -22,6 +22,7 @@ Obs: Os dados são atualizados a cada 15 dias
 1.4 O carregamento é feito posteriormente no Big query e as tabelas são sempre reescritas em todas as atualizações
 
 1.5 OS dados são conectados no Looker para visualização facilitada
+
     1.5.1 Foram divididas inicialmente 4 tabelas: 
     1: Porcentagem de vitorias, empates e derrotas de cada equipe 
     2: Análise se a equipe que abriu o placar se manteve, sofreu empate ou derrota

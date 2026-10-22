@@ -1,6 +1,6 @@
 ## Autor: Felipe Stillo Bretas
 
-Este pequeno projeto foi criado com a intenção de me familiarizar com a base dos processos de ETL em engenharia de dados
+Este projeto foi criado com a intenção de me familiarizar com a base dos processos de ETL em engenharia de dados
 
 Foi criado um pipeline ETL em arquitetura de medalhão (3 camadas: bronze, silver e gold) para analisar algumas estatísticas de partidas e equipes da Champions League, com a visualização final no Looker
 

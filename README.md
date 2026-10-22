@@ -6,9 +6,9 @@ Foi criado um pipeline ETL em arquitetura de medalhão (3 camadas: bronze, silve
 
 Obs: Os dados são atualizados a cada 15 dias
 
-1. Arquitetura:
+# 1. Arquitetura: 
 
-1.1  A ingestão dos dados é feita por meio da API da Football-data
+## 1.1  A ingestão dos dados é feita por meio da API da Football-data
 
 1.2  Os dados são armazenados em JSON em um datalake no GCS em uma camada "raw" e depois vão limpos para um csv
 
@@ -30,14 +30,14 @@ Obs: Os dados são atualizados a cada 15 dias
     4: Taxa de vitórias, empates e derrotas EM CASA
 
 
-2. Tecnologias utilizadas:
+# 2. Tecnologias utilizadas: 
 
 Python (Pandas, requests e python-dotenv)
 Google cloude storage e Big query
 Github actions (para a orquestração configurado via CRON)
 Looker studio
 
-3. ## Para visualizar os dados no Looker ##
+# 3. ## Para visualizar os dados no Looker ##
 
 Você pode testar os filtros e explorar os dados reais clicando no link abaixo:
 

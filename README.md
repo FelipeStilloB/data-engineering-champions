@@ -15,7 +15,7 @@ Obs: Os dados são atualizados a cada 15 dias
     1.2.1 Na primeira etapa (Bronze) é feita apenas a extração e disponibilização em json.
     A limpeza e escolha de colunas e feita na camada silver antes de construir o CSV
 
-## 1.3 A trasnformação dos dados é feita com Pandas para calcular as métricas desejadas sobre o desempenho de cada time
+## 1.3 A transformação dos dados é feita com Pandas para calcular as métricas desejadas sobre o desempenho de cada time
 
     1.3.1 Essa é a etapa gold onde são feitos todos os calculos e criação da nova tabela que ficará no banco de dados para alimentar o a etapa de visualização
 

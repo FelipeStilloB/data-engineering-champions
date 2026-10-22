@@ -10,18 +10,18 @@ Obs: Os dados são atualizados a cada 15 dias
 
 ## 1.1  A ingestão dos dados é feita por meio da API da Football-data
 
-1.2  Os dados são armazenados em JSON em um datalake no GCS em uma camada "raw" e depois vão limpos para um csv
+## 1.2  Os dados são armazenados em JSON em um datalake no GCS em uma camada "raw" e depois vão limpos para um csv
 
     1.2.1 Na primeira etapa (Bronze) é feita apenas a extração e disponibilização em json.
     A limpeza e escolha de colunas e feita na camada silver antes de construir o CSV
 
-1.3 A trasnformação dos dados é feita com Pandas para calcular as métricas desejadas sobre o desempenho de cada time
+## 1.3 A trasnformação dos dados é feita com Pandas para calcular as métricas desejadas sobre o desempenho de cada time
 
     1.3.1 Essa é a etapa gold onde são feitos todos os calculos e criação da nova tabela que ficará no banco de dados para alimentar o a etapa de visualização
 
-1.4 O carregamento é feito posteriormente no Big query e as tabelas são sempre reescritas em todas as atualizações
+## 1.4 O carregamento é feito posteriormente no Big query e as tabelas são sempre reescritas em todas as atualizações
 
-1.5 OS dados são conectados no Looker para visualização facilitada
+## 1.5 OS dados são conectados no Looker para visualização facilitada
 
     1.5.1 Foram divididas inicialmente 4 tabelas: 
     1: Porcentagem de vitorias, empates e derrotas de cada equipe 

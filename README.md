@@ -37,7 +37,7 @@ Google cloude storage e Big query
 Github actions (para a orquestração configurado via CRON)
 Looker studio
 
-# 3. ## Para visualizar os dados no Looker ##
+# 3. Para visualizar os dados no Looker 
 
 Você pode testar os filtros e explorar os dados reais clicando no link abaixo:
 
